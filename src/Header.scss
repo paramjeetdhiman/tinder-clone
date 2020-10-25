@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  border-bottom: 1px solid #f9f9f9;
+  -webkit-user-drag: none;
+}
+
+.header__logo {
+  object-fit: contain; //fit aspect ratio
+  height: 40px;
+}
